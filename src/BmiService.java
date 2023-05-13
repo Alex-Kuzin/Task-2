@@ -1,8 +1,8 @@
-public class BmiService {
-    public int calculate(int b, double a) {
-        double calculationBMI = b / (a * a);
-        int indexResult = (int) calculationBMI;
-        return indexResult;
+public class bmiService {
+    public int calculate(int weight, double height) {
+        double calcBodyMassIndex = weight / (height * height);
+        int resultBodyMassIndex = (int) calcBodyMassIndex;
+        return resultBodyMassIndex;
     }
 
 
